@@ -38,7 +38,7 @@ Ks 0.0 0.0 0.0
 Ns 1.0
 Ni 1
 d 1.0
-map_Kd bathroom_plan_wall_9_50.png
+map_Kd obj-viewer/bathroom_plan_wall_9_50.png
 
 newmtl room_11_62
 illum 1
@@ -48,7 +48,7 @@ Ks 0.0 0.0 0.0
 Ns 1.0
 Ni 1
 d 1.0
-map_Kd bathroom_plan_room_11_62.png
+map_Kd obj-viewer/bathroom_plan_room_11_62.png
 
 newmtl white
 illum 2
