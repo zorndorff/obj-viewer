@@ -15,7 +15,6 @@ docs: install
 	npm run build && rm -r docs && mv dist/ docs/
 
 publish: docs
-	cp src/*.png docs/
 	git add docs/
 	git commit docs -m "published" 
 	git push
