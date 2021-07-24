@@ -12,7 +12,7 @@ app.innerHTML = `
       <a-asset-item id="viewedModel" src="${broom}"></a-asset-item>
       <a-asset-item id="viewedModelMtl" src="${broomMtl}"></a-asset-item>
     </a-assets>
-    <a-entity obj-model="obj: #viewedModel;  mtl: #viewedModelMtl""></a-entity>
+    <a-entity obj-model="obj: #viewedModel;  mtl: #viewedModelMtl"></a-entity>
     </a-scene>
   </div>
 `;
