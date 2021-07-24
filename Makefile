@@ -12,7 +12,9 @@ dev: install
 	npm run dev
 
 docs: install
-	npm run build && mv dist docs
+	npm run build && rm -r docs && mv dist/ docs/
 
 publish: docs
-	git commit docs -m "published" && git push
+	git add docs/
+	git commit docs -m "published" 
+	git push
