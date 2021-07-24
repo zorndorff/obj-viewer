@@ -1,1 +1,0 @@
-import"./vendor.311747ed.js";document.querySelector("#app").innerHTML='\n  <div id="viewer">\n    <a-scene background="color: #ECECEC">\n    <a-assets>\n      <a-asset-item id="viewedModel" src="/obj-viewer/assets/bathroom_plan.4e4188b6.obj"></a-asset-item>\n    </a-assets>\n    <a-entity obj-model="obj: #viewedModel;"></a-entity>\n    </a-scene>\n  </div>\n';
