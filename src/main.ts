@@ -5,7 +5,12 @@ const app = document.querySelector('#app')!;
 
 app.innerHTML = `
   <div id="viewer">
-    <a-scene background="color: #ECECEC">
+    <a-scene renderer="antialias: true;
+    highRefreshRate: true;
+    colorManagement: false;
+    sortObjects: true;
+    maxCanvasWidth: 1920;
+    maxCanvasHeight: 1920;" background="color: #ECECEC">
     <a-assets>
       <a-asset-item id="viewedModel" src="bathroom_plan.obj"></a-asset-item>
       <a-asset-item id="viewedModelMtl" src="bathroom_plan.mtl"></a-asset-item>
