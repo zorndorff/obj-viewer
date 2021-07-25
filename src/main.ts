@@ -11,8 +11,8 @@ app.innerHTML = `
       <a-asset-item id="viewedModelMtl" src="bathroom_plan.mtl"></a-asset-item>
     </a-assets>
     <a-entity obj-model="obj: #viewedModel;  mtl: #viewedModelMtl;"></a-entity>
-    <a-entity id="rig" position="100 150 20">
-      <a-entity id="camera" camera look-controls></a-entity>
+    <a-entity id="rig" position="50 150 20" rotation="-10 240">
+      <a-entity id="camera" camera wasd-controls look-controls></a-entity>
     </a-entity>
     </a-scene>
   </div>
